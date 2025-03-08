@@ -258,6 +258,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
 }
+
 .footer__adress {
     justify-self: start;
     font-size: 18px;
