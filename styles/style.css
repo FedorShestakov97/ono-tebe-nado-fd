@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    font-family: "Raleway" , sans-serif;
+    font-family: 'Raleway' , sans-serif;
     font-weight: normal;
     font-size: 18px;
     background-color: #fff;
@@ -43,7 +43,7 @@
 }
 
 .cover {
-    background-image: url('/images/cover.jpg');
+    background-image: url('../images/cover.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.6);
 }
 
 .cover__title {
@@ -107,7 +107,7 @@
 }
 
 .bet-button {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-size: 22px;
     background-color: transparent;
@@ -155,27 +155,24 @@
     padding: 48px 40px ;
     z-index: 1;
     margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../images/card-lot-01.jpg);
+    
 }
 
 .card_type_book {
-    background-image: url(/images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../images/card-lot-02.jpg);
+    
 }
 
 .card_type_picture {
-    background-image: url(/images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../images/card-lot-03.jpg);
+    
 }
 
 .card__title {
@@ -251,7 +248,7 @@
     line-height: 1.2;
 }
 
-.about__text-paragraph_first {
+.about__text-paragraph {
     margin-bottom: 24px;
 }
 
@@ -265,6 +262,7 @@
     justify-self: start;
     font-size: 18px;
 }
+
 .footer__menu-list {
     list-style: none;
     justify-self: center;
@@ -274,10 +272,11 @@
 
 .footer__menu-link {
     text-decoration: none;
+    border-bottom: 1px solid #000;
 }
 
 .footer__menu-link_active {
-    border-bottom: 1px solid #000;
+    text-decoration: none;
 }
 
 .footer__social-list {
